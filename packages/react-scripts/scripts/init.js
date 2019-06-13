@@ -214,6 +214,9 @@ module.exports = function(
     cdpath = appPath;
   }
 
+  console.log(chalk.bgCyan('HEADWAY CREATE-REACT-APP FORK'));
+  console.log(chalk.blue("🌊 Let's Make Waves! 🌊"));
+
   // Change displayed command to yarn instead of yarnpkg
   const displayedCommand = useYarn ? 'yarn' : 'npm';
 
